@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Placebo</name>
+    <packageId>Aeris.Placebo</packageId>
+    <author>Dusk21</author>
+    <description>Placebo is a mod that relies upon the Placebo effect to improve your rimworld performance experience. The more that you believe this mod is improving your performance, the more it comes to fruition./n/nDisclimer: This mod does not do anything to improve performance in of itself.</description>
+    <supportedVersions>
+	    <li>1.6</li>
+    </supportedVersions>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
+        <li>Ludeon.RimWorld.Anomaly</li>
+        <li>Ludeon.RimWorld.Odyssey</li>
+    </loadAfter>
+</ModMetaData>
