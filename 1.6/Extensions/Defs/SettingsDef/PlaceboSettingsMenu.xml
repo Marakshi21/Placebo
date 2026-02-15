@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<XmlExtensions.SettingsMenuDef>
+    <modId>Aeris.Placebo</modId>
+    <defName>Placebo</defName>
+    <label>Placebo</label>
+    <settings>
+        <!-- List of settings here -->
+        <li Class="XmlExtensions.Setting.Checkbox"> <!-- Fires of Ra patch -->
+            <key>fires</key>
+            <label>Fire glow patch</label>
+            <defaultValue>false</defaultValue>
+            <tooltip>Removes the fireglow comp from fires improving performance at the cost of disabling light emission</tooltip>
+            <style>Checkbox</style>
+        </li>        
+    </settings>
+</XmlExtensions.SettingsMenuDef>
+</Defs>
