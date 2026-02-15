@@ -6,11 +6,18 @@
     <label>Placebo</label>
     <settings>
         <!-- List of settings here -->
-        <li Class="XmlExtensions.Setting.Checkbox"> <!-- Fires of Ra patch -->
+        <li Class="XmlExtensions.Setting.Checkbox"> <!-- Fires of Ra Patch -->
             <key>fires</key>
             <label>Fire glow patch</label>
             <defaultValue>false</defaultValue>
             <tooltip>Removes the fireglow comp from fires improving performance at the cost of disabling light emission</tooltip>
+            <style>Checkbox</style>
+        </li>
+        <li Class="XmlExtensions.Setting.Checkbox"> <!-- Mothballing Patch -->
+            <key>mothballing</key>
+            <label>Aggressive Mothballing</label>
+            <defaultValue>true</defaultValue>
+            <tooltip>Enables aggressive mothballing allowing pawns that normally wouldn't mothball to mothball increasing performance depending on the amount of unmothballed pawns there are./n/n WARNING: This patch can cause raiders to reappear and suddenly die from bleeding out since Placebo forces them to mothball despite their life-threatening injuries.</tooltip>
             <style>Checkbox</style>
         </li>        
     </settings>
