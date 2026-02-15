@@ -17,7 +17,7 @@
             <key>mothballing</key>
             <label>Aggressive Mothballing</label>
             <defaultValue>true</defaultValue>
-            <tooltip>Enables aggressive mothballing allowing pawns that normally wouldn't mothball to mothball increasing performance depending on the amount of unmothballed pawns there are./n/n WARNING: This patch can cause raiders to reappear and suddenly die from bleeding out since Placebo forces them to mothball despite their life-threatening injuries.</tooltip>
+            <tooltip>Enables aggressive mothballing allowing pawns that normally wouldn't mothball to mothball increasing performance depending on the amount of unmothballed pawns there are.\n\n\nWARNING: This patch can cause raiders to reappear and suddenly die from bleeding out since Placebo forces them to mothball despite their life-threatening injuries.</tooltip>
             <style>Checkbox</style>
         </li>        
     </settings>
